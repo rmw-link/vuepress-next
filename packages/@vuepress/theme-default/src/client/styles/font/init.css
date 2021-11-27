@@ -1,0 +1,16 @@
+@font-face {
+  font-family: code;
+  font-weight: 300;
+  font-display: block;
+  src: url("/woff2/code.woff2") format('woff2');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: h, sans-serif;
+  letter-spacing: 0.04em;
+  font-weight: 300;
+}
