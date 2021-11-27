@@ -1,22 +1,22 @@
 {
-  "name": "@vuepress/theme-default",
+  "name": "@rmw/site-theme",
   "version": "2.0.0-beta.27",
-  "description": "Default theme of VuePress",
+  "description": "theme for https://rmw.link",
   "keywords": [
     "vuepress-theme",
     "vuepress",
     "theme",
     "default"
   ],
-  "homepage": "https://github.com/vuepress",
+  "homepage": "https://github.com/rmw-link",
   "bugs": {
-    "url": "https://github.com/vuepress/vuepress-next/issues"
+    "url": "https://github.com/rmw-link/vuepress-next/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuepress/vuepress-next.git"
+    "url": "git+https://github.com/rmw-link/vuepress-next.git"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0-or-later",
   "author": "Evan You",
   "main": "lib/node/index.js",
   "types": "lib/node/index.d.ts",
