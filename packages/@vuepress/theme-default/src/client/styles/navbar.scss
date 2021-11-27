@@ -2,7 +2,7 @@
 
 .navbar {
   --navbar-line-height: calc(
-    var(--navbar-height) - 2 * var(--navbar-padding-v)
+  var(--navbar-height) - 2 * var(--navbar-padding-v)
   );
 
   padding: var(--navbar-padding-v) var(--navbar-padding-h);
@@ -15,9 +15,10 @@
   }
 
   .site-name {
+    font-family:h;
     font-size: 1.3rem;
     font-weight: 600;
-    color: var(--c-text);
+    color:  #f00;
     position: relative;
   }
 
