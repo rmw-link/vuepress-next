@@ -2846,6 +2846,30 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.20.tgz#53746961f731a8ea666e3316271e944238dc31db"
   integrity sha512-FbpX+hD5BvXCQerEYO7jtAGHlhAkhTQ4KIV73kmLWNlawWhTiVuQxizgVb0BOkX5oG9cIRZ42EG++d/k/Efp0w==
 
+"@vuepress/theme-default@2.0.0-beta.27":
+  version "2.0.0-beta.27"
+  resolved "https://registry.npmmirror.com/@vuepress/theme-default/download/@vuepress/theme-default-2.0.0-beta.27.tgz#5629ed26210c4db2c98db7dbd74faae6191c732d"
+  integrity sha1-VintJiEMTbLJjbfb10+q5hkccy0=
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.27"
+    "@vuepress/core" "2.0.0-beta.27"
+    "@vuepress/plugin-active-header-links" "2.0.0-beta.27"
+    "@vuepress/plugin-back-to-top" "2.0.0-beta.27"
+    "@vuepress/plugin-container" "2.0.0-beta.27"
+    "@vuepress/plugin-git" "2.0.0-beta.27"
+    "@vuepress/plugin-medium-zoom" "2.0.0-beta.27"
+    "@vuepress/plugin-nprogress" "2.0.0-beta.27"
+    "@vuepress/plugin-palette" "2.0.0-beta.27"
+    "@vuepress/plugin-prismjs" "2.0.0-beta.27"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.27"
+    "@vuepress/shared" "2.0.0-beta.27"
+    "@vuepress/utils" "2.0.0-beta.27"
+    "@vueuse/core" "^6.7.3"
+    sass "^1.43.4"
+    sass-loader "^12.2.0"
+    vue "^3.2.20"
+    vue-router "^4.0.12"
+
 "@vueuse/core@^6.7.3":
   version "6.7.3"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.7.3.tgz#1a827ee3be55a98c932f716467337a0826d54993"
@@ -2854,10 +2878,25 @@
     "@vueuse/shared" "6.7.3"
     vue-demi "*"
 
+"@vueuse/core@^7.1.2":
+  version "7.1.2"
+  resolved "https://registry.npmmirror.com/@vueuse/core/download/@vueuse/core-7.1.2.tgz#61ab2698c725ccaf168676f34cf6f41f76f8df34"
+  integrity sha512-SLoOPfhZdNRNUkZfx+wrHj6WycWdSw2RmNS8E4ngQ2kmBoJjRarGy51/GkGdjqHQqmhuwuFoNO2WaU0yBn3ffg==
+  dependencies:
+    "@vueuse/shared" "7.1.2"
+    vue-demi "*"
+
 "@vueuse/shared@6.7.3":
   version "6.7.3"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.7.3.tgz#92ed69b3e79e1a30936fc1f1d39a0107e8d522e0"
   integrity sha512-6syKgXvdikcSEHJzF7iVyXMqe7y7C7pH35EhH70zQLPnLXH6op9OgD2u4Ro1zyxESRkotbFIsuQJghG5IzXbKA==
+  dependencies:
+    vue-demi "*"
+
+"@vueuse/shared@7.1.2":
+  version "7.1.2"
+  resolved "https://registry.npmmirror.com/@vueuse/shared/download/@vueuse/shared-7.1.2.tgz#caee72d0669ecdb2b845349e8fea9431e50c09d6"
+  integrity sha512-AjYh4y9S5FMOoHDsysqcXY/1mpqNTrnWUD50yaaiyf+5kGWQVIpAkkjKZlYSC/NHKxxCRn0cLR4nWMzceUWewQ==
   dependencies:
     vue-demi "*"
 
@@ -9245,10 +9284,25 @@ sass-loader@^12.2.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
+sass-loader@^12.3.0:
+  version "12.3.0"
+  resolved "https://registry.npmmirror.com/sass-loader/download/sass-loader-12.3.0.tgz?cache=0&sync_timestamp=1635385383233&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fsass-loader%2Fdownload%2Fsass-loader-12.3.0.tgz#93278981c189c36a58cbfc37d4b9cef0cdc02871"
+  integrity sha1-kyeJgcGJw2pYy/w31LnO8M3AKHE=
+  dependencies:
+    klona "^2.0.4"
+    neo-async "^2.6.2"
+
 sass@^1.43.4:
   version "1.43.4"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.43.4.tgz#68c7d6a1b004bef49af0d9caf750e9b252105d1f"
   integrity sha512-/ptG7KE9lxpGSYiXn7Ar+lKOv37xfWsZRtFYal2QHNigyVQDx685VFT/h7ejVr+R8w7H4tmUgtulsKl5YpveOg==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+
+sass@^1.43.5:
+  version "1.43.5"
+  resolved "https://registry.npmmirror.com/sass/download/sass-1.43.5.tgz#25a9d91dd098793ef7229d7b04dd3daae2fc4a65"
+  integrity sha512-WuNm+eAryMgQluL7Mbq9M4EruyGGMyal7Lu58FfnRMVWxgUzIvI7aSn60iNt3kn5yZBMR7G84fAGDcwqOF5JOg==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
